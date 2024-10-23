@@ -5,9 +5,8 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:CalenderDesktopUi.Controls"
              xmlns:fa="http://schemas.fontawesome.io/icons/"
-             xmlns:local="clr-namespace:CalenderDesktopUi.Controls"
              mc:Ignorable="d" Name="item">
-    <Grid>
+    <Grid Margin="30 10">
             
     </Grid>
 </UserControl>
