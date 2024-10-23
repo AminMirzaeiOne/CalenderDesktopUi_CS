@@ -25,6 +25,28 @@
             </StackPanel>
         </StackPanel>
 
+        <ToggleButton Name="btnMenu" Grid.Column="2">
+            <ToggleButton.Template>
+                <ControlTemplate TargetType="ToggleButton">
+                    <fa:ImageAwesome Icon="EllipsisV" Width="16" Height="16" Foreground="#f1f1f1">
+                        <fa:ImageAwesome.Style>
+                            <Style TargetType="fa:ImageAwesome">
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="RenderTransform">
+                                            <Setter.Value>
+                                                <ScaleTransform ScaleX="1.2" ScaleY="1.2"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </fa:ImageAwesome.Style>
+                    </fa:ImageAwesome>
+                </ControlTemplate>
+            </ToggleButton.Template>
+        </ToggleButton>
+
 
     </Grid>
 </UserControl>
