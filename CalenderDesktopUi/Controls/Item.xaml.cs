@@ -50,6 +50,12 @@ namespace CalenderDesktopUi.Controls
             set { SetValue(IconProperty, value); }
         }
 
+        public FontAwesome.WPF.FontAwesomeIcon IconBell
+        {
+            get { return (FontAwesome.WPF.FontAwesomeIcon)GetValue(IconBellProperty); }
+            set { SetValue(IconBellProperty, value); }
+        }
+
         public Item()
         {
             InitializeComponent();
