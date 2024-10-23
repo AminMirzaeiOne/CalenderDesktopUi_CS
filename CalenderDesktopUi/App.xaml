@@ -60,5 +60,16 @@
             <Setter Property="VerticalAlignment" Value="Center" />
         </Style>
 
+        <Style x:Key="textBox" TargetType="TextBox">
+            <Setter Property="Background" Value="#CD5278" />
+            <Setter Property="Foreground" Value="#EBA5BB" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Margin" Value="10 0 0 0" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+
     </Application.Resources>
 </Application>
