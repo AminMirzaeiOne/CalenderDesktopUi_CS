@@ -41,5 +41,13 @@ namespace CalenderDesktopUi
             txtTime.Focus();
         }
 
+        private void txtNote_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(txtNote.Text) && txtNote.Text.Length > 0)
+                lblNote.Visibility = Visibility.Collapsed;
+            else
+                lblNote.Visibility = Visibility.Visible;
+        }
+
     }
 }
