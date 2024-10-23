@@ -4,9 +4,22 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalenderDesktopUi"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        xmlns:us="clr-namespace:CalenderDesktopUi.Controls"
+        FontFamily="Trebuchet MS" mc:Ignorable="d" WindowStartupLocation="CenterScreen" WindowStyle="None" 
+        AllowsTransparency="True" Background="Transparent" Height="590" Width="900">
     <Grid>
+        <!--Grid Background-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border CornerRadius="20 0 0 20" Background="#FEFEFE"/>
+
+            <Border CornerRadius="0 20 20 0" MouseDown="Border_MouseDown" Grid.Column="1" Background="#C73F69"/>
+        </Grid>
+
         
     </Grid>
 </Window>
