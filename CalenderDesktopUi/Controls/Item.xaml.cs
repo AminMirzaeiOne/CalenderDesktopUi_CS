@@ -32,6 +32,12 @@ namespace CalenderDesktopUi.Controls
             set { SetValue(TitleProperty, value); }
         }
 
+        public string Time
+        {
+            get { return (string)GetValue(TimeProperty); }
+            set { SetValue(TimeProperty, value); }
+        }
+
         public Item()
         {
             InitializeComponent();
