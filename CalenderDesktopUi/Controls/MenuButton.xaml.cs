@@ -20,6 +20,9 @@ namespace CalenderDesktopUi.Controls
     /// </summary>
     public partial class MenuButton : UserControl
     {
+        public static readonly DependencyProperty CaptionProperty = DependencyProperty.Register("Caption", typeof(string), typeof(MenuButton));
+
+
         public MenuButton()
         {
             InitializeComponent();
