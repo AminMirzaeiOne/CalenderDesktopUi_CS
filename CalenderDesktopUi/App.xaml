@@ -37,5 +37,9 @@
             <Setter Property="Margin" Value="0 3 0 0" />
         </Style>
 
+        <Style x:Key="buttonBig" TargetType="Button" BasedOn="{StaticResource button}">
+            <Setter Property="Foreground" Value="#EBA5BB" />
+        </Style>
+
     </Application.Resources>
 </Application>
