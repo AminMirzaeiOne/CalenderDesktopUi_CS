@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:CalenderDesktopUi.Controls"
              xmlns:fa="http://schemas.fontawesome.io/icons/"
              mc:Ignorable="d" Name="buttonMenu">
-    <Grid>
+    <Button>
             
-    </Grid>
+    </Button>
 </UserControl>
