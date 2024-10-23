@@ -38,7 +38,7 @@
         </Style>
 
         <Style x:Key="buttonBig" TargetType="Button" BasedOn="{StaticResource button}">
-            <Setter Property="Foreground" Value="#EBA5BB" />
+            <Setter Property="Foreground" Value="Orange" />
         </Style>
 
         <Style x:Key="angleBig" TargetType="fa:ImageAwesome">
@@ -56,12 +56,12 @@
             <Setter Property="Grid.Column" Value="1" />
             <Setter Property="Panel.ZIndex" Value="1" />
             <Setter Property="Margin" Value="10 0 0 0" />
-            <Setter Property="Foreground" Value="#EBA5BB" />
+            <Setter Property="Foreground" Value="White" />
             <Setter Property="VerticalAlignment" Value="Center" />
         </Style>
 
         <Style x:Key="textBox" TargetType="TextBox">
-            <Setter Property="Background" Value="#CD5278" />
+            <Setter Property="Background" Value="Coral" />
             <Setter Property="Foreground" Value="#EBA5BB" />
             <Setter Property="FontSize" Value="14" />
             <Setter Property="Grid.Column" Value="1" />
@@ -284,8 +284,8 @@
                                     </VisualState>
                                 </VisualStateGroup>
                             </VisualStateManager.VisualStateGroups>
-                            <Rectangle x:Name="TodayBackground" Fill="#C73F69" Opacity="0" RadiusX="30" RadiusY="30"/>
-                            <Rectangle x:Name="SelectedBackground" Fill="#C73F69" Opacity="0" RadiusX="30" RadiusY="30"/>
+                            <Rectangle x:Name="TodayBackground" Fill="Tomato" Opacity="0" RadiusX="30" RadiusY="30"/>
+                            <Rectangle x:Name="SelectedBackground" Fill="Tomato" Opacity="0" RadiusX="30" RadiusY="30"/>
                             <Border Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}"/>
                             <Rectangle x:Name="HighlightBackground" Fill="#c1c1c1" Opacity="0" RadiusX="30" RadiusY="30"/>
                             <ContentPresenter x:Name="NormalText" TextElement.Foreground="#FF333333" HorizontalAlignment="Center" Margin="5 3" VerticalAlignment="Center"/>

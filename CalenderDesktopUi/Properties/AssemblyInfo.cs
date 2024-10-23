@@ -10,10 +10,10 @@ using System.Windows;
 [assembly: AssemblyTitle("CalenderDesktopUi")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("AminMirzaeiOne")]
 [assembly: AssemblyProduct("CalenderDesktopUi")]
-[assembly: AssemblyCopyright("Copyright ©  2024")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyTrademark("AminMirzaeiOne")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
