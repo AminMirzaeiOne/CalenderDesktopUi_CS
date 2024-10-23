@@ -12,6 +12,9 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="auto"/>
         </Grid.ColumnDefinitions>
-        
+
+        <fa:ImageAwesome Icon="{Binding Path=Icon,ElementName=item}" Width="20" Height="20" VerticalAlignment="Top" Foreground="#f1f1f1" Margin="0 3 0 0"/>
+
+
     </Grid>
 </UserControl>
