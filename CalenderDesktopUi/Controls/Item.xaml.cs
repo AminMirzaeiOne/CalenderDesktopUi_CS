@@ -38,6 +38,12 @@ namespace CalenderDesktopUi.Controls
             set { SetValue(TimeProperty, value); }
         }
 
+        public SolidColorBrush Color
+        {
+            get { return (SolidColorBrush)GetValue(ColorProperty); }
+            set { SetValue(ColorProperty, value); }
+        }
+
         public Item()
         {
             InitializeComponent();
