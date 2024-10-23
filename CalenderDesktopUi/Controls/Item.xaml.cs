@@ -21,6 +21,8 @@ namespace CalenderDesktopUi.Controls
     public partial class Item : UserControl
     {
         public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(Item));
+        public static readonly DependencyProperty TimeProperty = DependencyProperty.Register("Time", typeof(string), typeof(Item));
+
 
         public Item()
         {
