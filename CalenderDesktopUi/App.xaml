@@ -47,5 +47,9 @@
             <Setter Property="Height" Value="25" />
         </Style>
 
+        <Style x:Key="buttonMonth" TargetType="Button" BasedOn="{StaticResource button}">
+            <Setter Property="FontSize" Value="18" />
+        </Style>
+
     </Application.Resources>
 </Application>
