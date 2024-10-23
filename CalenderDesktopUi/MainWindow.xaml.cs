@@ -36,5 +36,10 @@ namespace CalenderDesktopUi
             txtNote.Focus();
         }
 
+        private void lblTime_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            txtTime.Focus();
+        }
+
     }
 }
