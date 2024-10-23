@@ -31,5 +31,10 @@ namespace CalenderDesktopUi
                 this.DragMove();
         }
 
+        private void lblNote_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            txtNote.Focus();
+        }
+
     }
 }
